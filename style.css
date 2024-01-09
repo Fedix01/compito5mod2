@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F5F4F8;
+}
+
+.nav-link {
+    color: black !important;
+}
+
+form i {
+    font-size: 15px;
+    margin: 10px;
+    background-color: lightgray;
+    border-radius: 50%;
+    padding: 15px;
+
+}
+
+form img {
+    width: 50px;
+    border-radius: 50%;
+}
+
+.jumbotron {
+    margin: 0;
+    background:
+        url(assets/hero-img.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    color: white !important;
+    background-color: #7551FE !important;
+    height: 400px;
+}
+
+.jumbotron p {
+    width: 500px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+    -webkit-box-orient: vertical;
+    color: lightgray;
+}
+
+section {
+    background-color: white;
+    border-bottom: 2px solid lightgray;
+}
+
+section i {
+    background-color: #FFEEDA;
+    border-radius: 50%;
+    padding: 15px;
+}
