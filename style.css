@@ -26,19 +26,37 @@ form img {
     border-radius: 50%;
 }
 
+.container-bg {
+    background-color: #7551FE !important;
+}
+
 .jumbotron {
-    margin: 0;
-    background:
+    /* margin: 0; */
+    /* background:
         url(assets/hero-img.png);
     background-position: right;
     background-repeat: no-repeat;
-    color: white !important;
-    background-color: #7551FE !important;
+    color: white !important; */
+    background-color: #7551FE;
+    height: 400px;
+}
+
+@media screen and (max-width:768px) {
+    .jumbotron {
+        height: 750px;
+    }
+
+    .jumbotron img {
+        height: 300px !important;
+    }
+}
+
+.jumbotron img {
     height: 400px;
 }
 
 .jumbotron p {
-    width: 500px;
+    max-width: 500px;
     overflow: hidden;
     text-overflow: ellipsis;
     display: -webkit-box;
@@ -47,6 +65,12 @@ form img {
     -webkit-box-orient: vertical;
     color: lightgray;
 }
+
+/* @media screen and (max-width:768px) {
+    main .card {
+        width: 150px !important;
+    }
+} */
 
 section {
     background-color: white;
@@ -57,4 +81,61 @@ section i {
     background-color: #FFEEDA;
     border-radius: 50%;
     padding: 15px;
+}
+
+
+main .card {
+    width: 260px;
+    border-radius: 10px;
+}
+
+main .card img:first-of-type {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+main .card-title {
+    font-weight: 400;
+}
+
+main .review {
+    color: orange;
+    font-size: 14px;
+}
+
+main .review span:last-of-type {
+    color: lightgray;
+}
+
+main .card-body div:nth-of-type(3) span:first-of-type {
+    font-size: 20px;
+}
+
+main .card-body div:nth-of-type(3) span:last-of-type {
+    color: lightgray;
+    text-decoration: line-through;
+}
+
+main .card-body div:nth-of-type(3) {
+    border-bottom: 1px solid lightgray;
+}
+
+
+main .card-body div:last-of-type img {
+    width: 30px;
+    border-radius: 50%;
+}
+
+main .card-body div:last-of-type span {
+    color: grey;
+}
+
+footer div.container {
+    border-top: 1px solid lightgray;
+    min-height: 50px;
+    padding-top: 10px;
+}
+
+footer div:last-of-type span {
+    padding: 10px;
 }
