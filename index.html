@@ -85,24 +85,35 @@
                 </ul>
                 <form class="d-flex justify-content-center align-items-center">
                     <i class="fa fa-bell-o" aria-hidden="true"></i>
-                    <img src="assets/avatar-1.jpg" alt="">
-                </form>
+                    <div class="dropdown">
+                        <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">
+                            <img src="assets/avatar-1.jpg" alt="">
+                            <span class="caret"></span>
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </div>
             </div>
+            </form>
+        </div>
         </div>
     </nav>
     <div class="container-bg">
         <div class="container hero">
-            <div class="row justify-content-center text-light jumbotron">
-                <div class="ml-5 mt-5 mb-5 col-md-8 col-sm-12">
-                    <h1 class="display-5 fw-bold">Welcome Web Students!</h1>
-                    <p class="col-md-8 fs-4">Hand-picked Instructor and expertly crafted courses, designed for the
+            <div class="row text-light jumbotron">
+                <div class="mx-auto col-md-8 col-sm-12">
+                    <h1 class="mt-4 fw-bold">Welcome Web Students!</h1>
+                    <p class="fs-4">Hand-picked Instructor and expertly crafted courses, designed for the
                         modern
                         students and entrepreneur.</p>
                     <button class="btn btn-success text-light btn-lg p-3" type="button">Browse courses</button>
                     <button class="btn btn-light text-dark btn-lg p-3" type="button">Are You Instructor?</button>
                 </div>
-                <div class="mr-5 col-md-4 col-sm-12">
-                    <img class="" src="assets/hero-img.png" alt="">
+                <div class="mx-auto col-md-4 col-sm-12">
+                    <img class="img-fluid" src="assets/hero-img.png" alt="">
                 </div>
             </div>
         </div>

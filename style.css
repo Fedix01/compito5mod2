@@ -31,46 +31,17 @@ form img {
 }
 
 .jumbotron {
-    /* margin: 0; */
-    /* background:
-        url(assets/hero-img.png);
-    background-position: right;
-    background-repeat: no-repeat;
-    color: white !important; */
     background-color: #7551FE;
-    height: 400px;
 }
 
-@media screen and (max-width:768px) {
-    .jumbotron {
-        height: 750px;
-    }
-
-    .jumbotron img {
-        height: 300px !important;
-    }
-}
-
-.jumbotron img {
-    height: 400px;
+.jumbotron h1 {
+    font-size: 40px;
 }
 
 .jumbotron p {
     max-width: 500px;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    display: -webkit-box;
-    -webkit-line-clamp: 3;
-    line-clamp: 3;
-    -webkit-box-orient: vertical;
     color: lightgray;
 }
-
-/* @media screen and (max-width:768px) {
-    main .card {
-        width: 150px !important;
-    }
-} */
 
 section {
     background-color: white;
