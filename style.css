@@ -56,7 +56,7 @@ section i {
 
 @media screen and (max-width:580px) {
     main .card {
-        width: 200px !important;
+        width: 190px !important;
     }
 }
 
