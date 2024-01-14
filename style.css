@@ -26,9 +26,23 @@ form img {
     border-radius: 50%;
 }
 
+form .dropdown-menu img {
+    margin-right: 10px;
+}
+
+form .dropdown-menu i {
+    padding: 5px;
+    background-color: white;
+}
+
+.dropdown-menu img {
+    width: 30px;
+}
+
 .container-bg {
     background-color: #7551FE !important;
 }
+
 
 .jumbotron {
     background-color: #7551FE;
