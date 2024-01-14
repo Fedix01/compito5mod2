@@ -35,6 +35,18 @@ form .dropdown-menu i {
     background-color: white;
 }
 
+form .dropdown-menu div:first-of-type:hover {
+    background-color: white !important;
+}
+
+form .dropdown-menu div:nth-of-type(2):hover {
+    background-color: white !important;
+}
+
+form .dropdown-menu div:hover {
+    background-color: lightgray;
+}
+
 .dropdown-menu img {
     width: 30px;
 }
@@ -162,6 +174,7 @@ footer div:last-of-type span {
 .zoom {
     transform: scale(1.1);
     transition: transform 0.6s linear 0s;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
 }
 
 .book-page {
